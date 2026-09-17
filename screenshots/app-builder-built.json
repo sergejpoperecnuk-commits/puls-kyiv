@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Пульс Києва",
+      "hasCanvas": false,
+      "bodyTextLen": 8839,
+      "bodyTextHash": "cbab7437574d0a068e73dba1ee9490ec74513d9d3592463c0f4a5cf8652b5cd7",
+      "bodyTextPrefix": "Пульс Києва Цивільний моніторинг Головна Стрічка Джерела Пошук Н",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Пульс Києва",
+      "hasCanvas": false,
+      "bodyTextLen": 7980,
+      "bodyTextHash": "b5ece8e76716757f569ba32417ed1ecab2898a009adfd9724bcd86b5db8f12e4",
+      "bodyTextPrefix": "Пульс Києва Наживо ОГЛЯД Наживо по Києву Останнє · щойно · ДТЕК ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (6588 -> 8839 chars, hash mismatch)",
+    "mobile: body text changed (5724 -> 7980 chars, hash mismatch)"
+  ]
+}

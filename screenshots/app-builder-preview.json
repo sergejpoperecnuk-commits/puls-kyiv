@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Пульс Києва",
+      "hasCanvas": false,
+      "bodyTextLen": 7157,
+      "bodyTextHash": "31e1aa4ca1e9e9138417168422d3129206c7b1e01cc40dab20d9592aac26015f",
+      "bodyTextPrefix": "Пульс Києва Цивільний моніторинг Головна Стрічка Джерела Пошук Н",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Пульс Києва",
+      "hasCanvas": false,
+      "bodyTextLen": 6451,
+      "bodyTextHash": "31603c1530a42d03f275a163ccd5c7ccdd88279728cbb17aa70478c04f226d81",
+      "bodyTextPrefix": "Пульс Києва Наживо ОГЛЯД Наживо по Києву Останнє · щойно · Повіт",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        font-family: "LibBold";
+        src: url("file:///usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf")
+          format("truetype");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "LibReg";
+        src: url("file:///usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf")
+          format("truetype");
+        font-weight: 400;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1792px;
+        height: 1008px;
+        overflow: hidden;
+        background: #09090b;
+      }
+      .bg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .scrim {
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(
+          ellipse 70% 58% at 36% 50%,
+          rgba(9, 9, 11, 0.42) 0%,
+          rgba(9, 9, 11, 0.16) 52%,
+          rgba(9, 9, 11, 0) 74%
+        );
+      }
+      .lockup {
+        position: absolute;
+        left: 196px;
+        top: 50%;
+        transform: translateY(-52%);
+        width: 980px;
+      }
+      .live {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #7dcfb6;
+        box-shadow:
+          0 0 0 7px rgba(125, 207, 182, 0.16),
+          0 0 0 14px rgba(125, 207, 182, 0.07);
+        margin-bottom: 36px;
+      }
+      h1 {
+        font-family: LibBold, "Liberation Sans", sans-serif;
+        font-size: 118px;
+        line-height: 1.05;
+        color: #ecece8;
+        font-weight: 700;
+        letter-spacing: 0.015em;
+        white-space: nowrap;
+      }
+      .rule {
+        width: 640px;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.08);
+        margin: 30px 0 22px;
+      }
+      p {
+        font-family: LibReg, "Liberation Sans", sans-serif;
+        font-size: 29px;
+        line-height: 1.2;
+        color: rgba(236, 236, 232, 0.7);
+        letter-spacing: 0.12em;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      class="bg"
+      src="file:///workspace/artifacts/imagine_images/2358dc10-7feb-4e75-b706-f59dd81ba621.jpg"
+      alt=""
+    />
+    <div class="scrim"></div>
+    <div class="lockup">
+      <div class="live"></div>
+      <h1>Пульс Києва</h1>
+      <div class="rule"></div>
+      <p>Kyiv civic Telegram feed</p>
+    </div>
+  </body>
+</html>

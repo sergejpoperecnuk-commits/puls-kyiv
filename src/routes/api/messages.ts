@@ -16,7 +16,10 @@ export const Route = createFileRoute("/api/messages")({
         const limit = limitRaw ? Number(limitRaw) : undefined;
         const sourceIds = source ? source.split(",").filter(Boolean) : undefined;
         const page = await listMessages({
-          cursor, query, category, sourceIds,
+          cursor,
+          query,
+          category,
+          sourceIds,
           limit: Number.isFinite(limit) ? limit : undefined,
         });
         return Response.json(page);
